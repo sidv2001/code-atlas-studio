@@ -18,7 +18,7 @@ export function createDemoAtlas(): AtlasGraph {
     repository: {
       name: "Parcelboard (original fixture)",
       sourceBaseUrl:
-        "https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/",
+        "https://github.com/sidv2001/code-atlas-studio/blob/f449d2e07ff0a6532be0067588b361b978c7978e/examples/parcelboard/",
     },
     nodes: [
       ...graph.nodes,

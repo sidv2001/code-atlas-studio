@@ -41,7 +41,8 @@ behavior, and execution coverage are outside this pass.
 nothing into the scanned directory. The demo generator writes only
 `src/data/demo-atlas.json` from the original MIT fixture. The browser bundles
 that fixture's source text for excerpts; it performs no upload or telemetry.
-Following a source link navigates to this repository on GitHub. A private
+Following a source link navigates to an immutable commit of the fixture in
+this repository on GitHub, including while the PR is still open. A private
 graph can contain filenames and identifiers, so do not commit or publish one
 without reviewing it. The tool never asks for agent write access.
 

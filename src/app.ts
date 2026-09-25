@@ -35,6 +35,7 @@ function sourceDescription(source: SourceRange): string {
 
 function sourcePreview(text: string, source: SourceRange, isFile: boolean): HTMLElement {
   const lines = text.replace(/\r\n/g, "\n").split("\n");
+  if (lines.at(-1) === "") lines.pop();
   const firstLine = isFile ? 1 : Math.max(1, source.start.line - 2);
   const lastLine = Math.min(
     lines.length,

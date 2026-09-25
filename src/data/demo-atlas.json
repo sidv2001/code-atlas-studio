@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": {
     "name": "Parcelboard (original fixture)",
-    "sourceBaseUrl": "https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/"
+    "sourceBaseUrl": "https://github.com/sidv2001/code-atlas-studio/blob/f449d2e07ff0a6532be0067588b361b978c7978e/examples/parcelboard/"
   },
   "analysis": {
     "fileCount": 4,

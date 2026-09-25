@@ -9,7 +9,7 @@ test("validates the generated graph and builds an exact source link", () => {
   if (!source || !graph.repository.sourceBaseUrl) throw new Error("Expected demo source.");
   expect(lastSourceLine(source)).toBe(21);
   expect(sourceHref(graph.repository.sourceBaseUrl, source)).toBe(
-    "https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/src/ui/DeliveryBoard.tsx#L5-L21",
+    "https://github.com/sidv2001/code-atlas-studio/blob/f449d2e07ff0a6532be0067588b361b978c7978e/examples/parcelboard/src/ui/DeliveryBoard.tsx#L5-L21",
   );
   const fileSource = graph.nodes.find((node) => node.label === "DeliveryBoard.tsx")?.source;
   expect(fileSource).toBeDefined();

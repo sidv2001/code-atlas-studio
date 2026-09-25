@@ -571,6 +571,11 @@ a {
   background: #fae9ce;
 }
 
+.file-button:focus-visible,
+.proposal-button:focus-visible {
+  outline-offset: -3px;
+}
+
 .module-button[aria-current="true"],
 .file-button[aria-current="true"],
 .symbol-button[aria-current="true"],
