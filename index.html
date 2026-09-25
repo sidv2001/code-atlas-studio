@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f3eb" />
+    <meta
+      name="description"
+      content="Explore an original TypeScript example through a source-linked, nested architecture map."
+    />
+    <title>Code Atlas Studio | Parcelboard</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <main class="fallback">
+        <p class="eyebrow">CODE / ATLAS - STATIC VIEW</p>
+        <h1>Find your bearings in the code.</h1>
+        <p>
+          An original four-file TypeScript example, grouped by directory.
+          Open the source for a closer look.
+        </p>
+        <div class="fallback-grid" aria-label="Static architecture map">
+          <section>
+            <h2>src/model</h2>
+            <p>
+              <a href="https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/src/model/shipment.ts">
+                shipment.ts
+              </a>
+              - Shipment, ShipmentStatus, statusLabel
+            </p>
+          </section>
+          <section>
+            <h2>src/domain</h2>
+            <p>
+              <a href="https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/src/domain/RoutePlanner.ts">
+                RoutePlanner.ts
+              </a>
+              - RoutePlanner
+            </p>
+          </section>
+          <section>
+            <h2>src/ui</h2>
+            <p>
+              <a href="https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/src/ui/DeliveryBoard.tsx">
+                DeliveryBoard.tsx
+              </a>
+              - DeliveryBoard
+            </p>
+            <p>
+              <a href="https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/src/ui/StatusBadge.tsx">
+                StatusBadge.tsx
+              </a>
+              - StatusBadge
+            </p>
+            <p class="fallback-proposal">Proposed only: DelayForecast (no source file)</p>
+          </section>
+        </div>
+        <p>
+          Static imports: RoutePlanner -> shipment; StatusBadge -> shipment;
+          DeliveryBoard -> shipment, RoutePlanner, StatusBadge.
+        </p>
+        <noscript><p>Enable JavaScript for the selectable map and source excerpts.</p></noscript>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

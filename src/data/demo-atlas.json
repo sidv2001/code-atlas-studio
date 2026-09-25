@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "repository": {
+    "name": "Parcelboard (original fixture)",
+    "sourceBaseUrl": "https://github.com/sidv2001/code-atlas-studio/blob/main/examples/parcelboard/"
+  },
+  "analysis": {
+    "fileCount": 4,
+    "unmappedBareImports": 0,
+    "unresolvedRelativeImports": []
+  },
+  "nodes": [
+    {
+      "id": "module:src/domain",
+      "kind": "module",
+      "label": "src/domain",
+      "parentId": null,
+      "provenance": "curated",
+      "description": "Files grouped by directory; not a runtime boundary."
+    },
+    {
+      "id": "module:src/model",
+      "kind": "module",
+      "label": "src/model",
+      "parentId": null,
+      "provenance": "curated",
+      "description": "Files grouped by directory; not a runtime boundary."
+    },
+    {
+      "id": "module:src/ui",
+      "kind": "module",
+      "label": "src/ui",
+      "parentId": null,
+      "provenance": "curated",
+      "description": "Files grouped by directory; not a runtime boundary."
+    },
+    {
+      "id": "file:src/domain/RoutePlanner.ts",
+      "kind": "file",
+      "label": "RoutePlanner.ts",
+      "parentId": "module:src/domain",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/domain/RoutePlanner.ts",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    },
+    {
+      "id": "symbol:src/domain/RoutePlanner.ts:52",
+      "kind": "class",
+      "label": "RoutePlanner",
+      "parentId": "file:src/domain/RoutePlanner.ts",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/domain/RoutePlanner.ts",
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "end": {
+          "line": 8,
+          "column": 2
+        }
+      }
+    },
+    {
+      "id": "file:src/model/shipment.ts",
+      "kind": "file",
+      "label": "shipment.ts",
+      "parentId": "module:src/model",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/model/shipment.ts",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    },
+    {
+      "id": "symbol:src/model/shipment.ts:0",
+      "kind": "type",
+      "label": "ShipmentStatus",
+      "parentId": "file:src/model/shipment.ts",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/model/shipment.ts",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 1,
+          "column": 68
+        }
+      }
+    },
+    {
+      "id": "symbol:src/model/shipment.ts:69",
+      "kind": "interface",
+      "label": "Shipment",
+      "parentId": "file:src/model/shipment.ts",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/model/shipment.ts",
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "end": {
+          "line": 7,
+          "column": 2
+        }
+      }
+    },
+    {
+      "id": "symbol:src/model/shipment.ts:163",
+      "kind": "function",
+      "label": "statusLabel",
+      "parentId": "file:src/model/shipment.ts",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/model/shipment.ts",
+        "start": {
+          "line": 9,
+          "column": 1
+        },
+        "end": {
+          "line": 18,
+          "column": 2
+        }
+      }
+    },
+    {
+      "id": "file:src/ui/DeliveryBoard.tsx",
+      "kind": "file",
+      "label": "DeliveryBoard.tsx",
+      "parentId": "module:src/ui",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/DeliveryBoard.tsx",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 22,
+          "column": 1
+        }
+      }
+    },
+    {
+      "id": "symbol:src/ui/DeliveryBoard.tsx:152",
+      "kind": "component",
+      "label": "DeliveryBoard",
+      "parentId": "file:src/ui/DeliveryBoard.tsx",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/DeliveryBoard.tsx",
+        "start": {
+          "line": 5,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      }
+    },
+    {
+      "id": "file:src/ui/StatusBadge.tsx",
+      "kind": "file",
+      "label": "StatusBadge.tsx",
+      "parentId": "module:src/ui",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/StatusBadge.tsx",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        }
+      }
+    },
+    {
+      "id": "symbol:src/ui/StatusBadge.tsx:71",
+      "kind": "component",
+      "label": "StatusBadge",
+      "parentId": "file:src/ui/StatusBadge.tsx",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/StatusBadge.tsx",
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        }
+      }
+    },
+    {
+      "id": "proposal:delay-forecast",
+      "kind": "component",
+      "label": "DelayForecast",
+      "parentId": "module:src/ui",
+      "provenance": "proposed",
+      "description": "An idea to discuss: a view of potentially late deliveries. No file or implementation exists."
+    }
+  ],
+  "edges": [
+    {
+      "id": "import:src/domain/RoutePlanner.ts:0",
+      "from": "file:src/domain/RoutePlanner.ts",
+      "to": "file:src/model/shipment.ts",
+      "kind": "imports",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/domain/RoutePlanner.ts",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 1,
+          "column": 51
+        }
+      }
+    },
+    {
+      "id": "import:src/ui/DeliveryBoard.tsx:0",
+      "from": "file:src/ui/DeliveryBoard.tsx",
+      "to": "file:src/model/shipment.ts",
+      "kind": "imports",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/DeliveryBoard.tsx",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 1,
+          "column": 51
+        }
+      }
+    },
+    {
+      "id": "import:src/ui/DeliveryBoard.tsx:51",
+      "from": "file:src/ui/DeliveryBoard.tsx",
+      "to": "file:src/domain/RoutePlanner.ts",
+      "kind": "imports",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/DeliveryBoard.tsx",
+        "start": {
+          "line": 2,
+          "column": 1
+        },
+        "end": {
+          "line": 2,
+          "column": 55
+        }
+      }
+    },
+    {
+      "id": "import:src/ui/DeliveryBoard.tsx:106",
+      "from": "file:src/ui/DeliveryBoard.tsx",
+      "to": "file:src/ui/StatusBadge.tsx",
+      "kind": "imports",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/DeliveryBoard.tsx",
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "end": {
+          "line": 3,
+          "column": 45
+        }
+      }
+    },
+    {
+      "id": "import:src/ui/StatusBadge.tsx:0",
+      "from": "file:src/ui/StatusBadge.tsx",
+      "to": "file:src/model/shipment.ts",
+      "kind": "imports",
+      "provenance": "extracted",
+      "source": {
+        "path": "src/ui/StatusBadge.tsx",
+        "start": {
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "line": 1,
+          "column": 70
+        }
+      }
+    }
+  ]
+}
